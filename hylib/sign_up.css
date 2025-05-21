@@ -1,0 +1,110 @@
+/* General Body Style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-image: url('sign_up.jpg');
+     background-size: cover;           
+    background-position: center;     
+    background-repeat: no-repeat;
+
+}
+
+.signup-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-card {
+    background: rgba(0, 0, 0, 0.5); /* Transparent white background */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(6px); /* Glassmorphism effect */
+    -webkit-backdrop-filter: blur(6px); /* Safari support */
+    width: 100%;
+    max-width: 340px;
+    text-align: center;
+}
+
+.signup-card h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.signup-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signup-card label {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.signup-card input {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.signup-card input:focus {
+    border-color: #f1c40f;
+}
+
+.signup-card button {
+    padding:   12px 46px;
+    background: #2fabc1;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-card button i {
+    margin-right: 8px;
+}
+
+.signup-card button:hover {
+    background: #31e0ff;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #070909;
+}
+
+.footer a {
+    color: #4fe5ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+.sign{
+        
+    margin: 0% 25% 0% 25%;
+}

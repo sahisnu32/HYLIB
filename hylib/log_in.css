@@ -1,0 +1,119 @@
+body {
+     margin: 0;
+    font-family: Arial, sans-serif;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+        background-image: url('log_in.jpg');
+     background-size: cover;           
+    background-position: center;     
+    background-repeat: no-repeat;
+
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+}
+
+.login-card {
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 15px;
+    padding: 32px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(6px); 
+    -webkit-backdrop-filter: blur(6px);
+    width: 100%;
+    max-width: 340px;
+    text-align: center;
+}
+
+.login-card h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #8d6e63;
+    border-radius: 5px;
+    background: #fffaf0;
+    outline: none;
+}
+
+input:focus {
+    border-color: #a1887f;
+}
+
+.options {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.options a {
+    color: #2b1d1a;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background: #ff7b00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #f79539;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #4e342e;
+}
+
+.footer a {
+    color: #ff6030;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+img.logo {
+    width: 270px;
+}
